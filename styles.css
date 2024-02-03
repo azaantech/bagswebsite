@@ -100,7 +100,7 @@ p{
 .col-2 img{
     max-width: 100%;
     padding: 50px 0px;
-    background-color: rgb(250, 243, 243);
+    
     /* margin-left: 70px; */
 
 }
@@ -307,6 +307,7 @@ select:focus{
 }
 .single-product .col-2 img{
   padding: 0;
+  background-color: rgb(235, 215, 215);
 }
 .single-product .col-2{
   padding: 20px;
@@ -342,7 +343,9 @@ input:focus{
   flex-basis: 24%;
   cursor: pointer;
 }
-
+.small-img{
+  background-color: rgb(235, 215, 215) ;
+}
 
 
 @media only screen and (max-width:600px){
